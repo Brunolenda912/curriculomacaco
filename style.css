@@ -1,10 +1,58 @@
 #body{
-    
-
-
-
+    background-color: rgb(0, 0, 0);
+    color: blanchedalmond;
 }
+
 #monkey{
-    top: 100px;
-    height: 100px;
+
+position: absolute;
+top: 10px;
+left: 10px;
+height: 100px;
+width: 100px;
+}
+
+
+#form{
+    text-align: center;
+}
+
+.id{
+box-shadow: 2px 2px 10px rgb(255, 255, 255);
+border: 2px solid rgb(0, 0, 0);
+transition: 0.5s;
+}
+.id:focus{
+    border-color: #000000;
+    box-shadow: 2px 2px 2px #00f5cc;
+}
+
+#titulo{
+    text-align: center;
+}
+
+#clock{
+    position:absolute;
+    right: 10px;
+    top: 10px;
+    background-color: black;
+    color: blanchedalmond;
+    border: 0px;
+}
+
+#date{
+    position:absolute;
+    right: 10px;
+    top: 40px;
+    background-color:rgb(0, 0, 0) ;
+    color: rgb(255, 255, 255);
+    border: 0px;
+}
+
+
+
+#c{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
 }
