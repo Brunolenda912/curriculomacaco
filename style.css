@@ -56,3 +56,39 @@ transition: 0.5s;
     right: 10px;
     bottom: 10px;
 }
+
+#num1{
+    color: rgb(51, 255, 0);
+    background-color: rgb(34, 32, 32);
+    border-color: chartreuse;
+    font-size: 15px;
+    position: absolute;
+    right: 60px;
+    top: 250px;
+}
+#num2{
+    color: rgb(51, 255, 0);
+    background-color: rgb(34, 32, 32);
+    border-color: chartreuse;
+    font-size: 15px;
+    position: absolute;
+    right: 60px;
+    top: 300px;
+}
+
+#botao{
+    color: rgb(51, 255, 0);
+    background-color: rgb(34, 32, 32);
+    border-color: chartreuse;
+    font-size: 15px;
+    position: absolute;
+    right: 125px;
+    top: 350px;
+}
+
+#somar{
+    color: chartreuse;
+    position: absolute;
+    right: 22px;
+    top: 150px;
+}
