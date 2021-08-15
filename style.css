@@ -55,6 +55,7 @@ transition: 0.5s;
     position: absolute;
     right: 10px;
     bottom: 10px;
+    color: rgb(255, 230, 0);
 }
 
 #num1{

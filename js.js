@@ -7,7 +7,7 @@ function fosco (){
                 var year = data.getFullYear();
                                                         
             var tempo = document.getElementById("date");
-        tempo.value = day + "/" + (month+1) + "/" + year;
+        tempo.value = day + "/" + (month<=9 ? "0" + (month + 1) : month) + "/" + year;
 }
 fosco();
 
@@ -19,7 +19,7 @@ function hour () {
     var seconds = today.getSeconds();
 
     var clock = document.getElementById("clock");
-    clock.value = hour + ":" + minutes + ":" + (seconds<10 ? "0"+seconds : seconds);
+    clock.value = (hour<=9 ? "0"+hour : hour) + ":" + (minutes<=9 ? "0" + minutes : minutes) + ":" + (seconds<10 ? "0"+seconds : seconds);
 
     setTimeout("hour()",1000);
 }
